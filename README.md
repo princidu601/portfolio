@@ -1,4 +1,4 @@
-# PORTFOLIO DE RATOVELO Michel Princy
+# Portfolio de RATOVELO Michel Princy
 
 Bienvenue sur mon portfolio personnel.
 
