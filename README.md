@@ -1,22 +1,46 @@
-# Portfolio de RATOVELO Michel Princy
+# PORTFOLIO DE RATOVELO Michel Princy
 
-Bienvenue sur mon portfolio en ligne !  
-Ce site présente mes projets, mes compétences et mon apprentissage du développement web.
+Bienvenue sur mon portfolio personnel.
 
-## Objectif
-L'objectif de ce portfolio est de montrer mes réalisations en HTML et CSS ainsi que ma capacité à créer des sites web fonctionnels et esthétiques.
+Je suis étudiant en L1 informatique à l'emit (Ecole de Management et d'Innovation Technologique) dans l'université de fianarantsoa et je débute dans le développement web.  
+Ce site a été réalisé dans le but de présenter mes premiers projets et de mettre en pratique mes connaissances en HTML et CSS
 
-## Projets inclus
-- **Sécurité sur Internet** : site sur les dangers et bonnes pratiques en ligne ([voir le site](https://tonpseudo.github.io/securite-internet/))
-- D'autres projets à venir...
+---
 
-## Technologies utilisées
-- HTML
-- CSS
-- GitHub Pages pour la mise en ligne
+## 🛠️ Technologies utilisées
 
-## Lien vers le portfolio en ligne
-[Mon Portfolio](https://tonpseudo.github.io/portfolio/)
+- HTML5  
+- CSS3  
+- GitHub Pages (hébergement)
 
-## À propos
-Je suis étudiant en L1 à l'emit (Ecole de Management et d'Innovation Technologique) à Fianarantsoa, passionné par le développement web et l’informatique. Ce portfolio est une vitrine de mes compétences et de mes projets personnels.
+---
+
+## 📁 Projets présentés
+
+### 🔐 La cybersécurité
+Un site web éducatif qui explique :
+- les dangers liés à l’utilisation d’Internet  
+- les risques pour les données personnelles  
+- les solutions pour naviguer en toute sécurité  
+ 
+cliquer ici svp: https://princidu601.github.io/securite-internet/
+
+---
+
+## Objectif du portfolio
+
+- Apprendre à structurer un site web  
+- Améliorer mes compétences en HTML et CSS  
+- Présenter mes projets de manière claire et professionnelle  
+
+---
+
+## Hébergement
+
+Ce portfolio est hébergé grâce à GitHub Pages
+
+---
+
+##  Contact
+-téléphone: 0387866618
+- Email : Princirm145@gmail.com
