@@ -1,1 +1,23 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    text-align: center;
+    background-color: grey;
+}
 
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  color: lightblue;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: scale(1.1); /* 10% plus grand */
+    transition: transform 0.3s ease;
+  color: white;
+}
