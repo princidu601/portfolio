@@ -45,7 +45,7 @@ h1 {
     text-align: center;
     margin-bottom: 30px;
     text-shadow: 3px 3px 10px rgba(0,0,0,0.7);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h2 {
