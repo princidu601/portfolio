@@ -43,7 +43,7 @@ h1 {
     font-size: 60px;
     text-align: center;
     margin-bottom: 30px;
-    color: #ffffff; /* blanc */
+    background: linear-gradient(90deg, #4f46e5, #8b5cf6);
     -webkit-background-clip: unset;
     -webkit-text-fill-color: unset;
 }
@@ -75,7 +75,7 @@ p {
 
 /* ===== Carte projet ===== */
 .card {
-    background: rgba(0, 0, 0, 0.05);
+    background: #ffffff;
     padding: 25px;
     border-radius: 12px;
     margin-top: 30px;
