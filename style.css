@@ -53,18 +53,20 @@ h2 {
     margin-bottom: 15px;
     border-left: 4px solid #8b5cf6;
     padding-left: 12px;
+    color: black;
 }
 
 h3 {
     font-size: 22px;
     margin-bottom: 8px;
+    color: black;
 }
 
 /* ===== Texte ===== */
 p {
     font-size: 40px;
     line-height: 1.7;
-    color: #cbd5e1;
+    color: black;
 }
 
 .intro {
