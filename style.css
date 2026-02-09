@@ -1,9 +1,10 @@
 /* ===== Global ===== */
 body {
     margin: 0;
-    font-family: "Segoe UI", Tahoma, sans-serif;
-    background: linear-gradient(135deg, #050505, #0f172a);
-    color: #e5e7eb;
+    font-family: "Inter", "Segoe UI", Tahoma, sans-serif;
+    background: #0f111a; /* bleu nuit très foncé */
+    color: #e0e0e0;
+    scroll-behavior: smooth;
 }
 
 /* ===== Navigation ===== */
@@ -11,20 +12,21 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.75);
-    backdrop-filter: blur(8px);
+    background: rgba(15, 17, 26, 0.85);
+    backdrop-filter: blur(10px);
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     padding: 18px 0;
     z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
 
 nav a {
-    color: #f1f5f9;
+    color: #e0e0e0;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 500;
     position: relative;
     transition: 0.3s ease;
 }
@@ -34,7 +36,7 @@ nav a::after {
     position: absolute;
     width: 0;
     height: 2px;
-    background: #38bdf8;
+    background: #8b5cf6; /* violet pastel */
     left: 0;
     bottom: -6px;
     transition: width 0.3s;
@@ -45,76 +47,110 @@ nav a:hover::after {
 }
 
 nav a:hover {
-    color: #38bdf8;
+    color: #8b5cf6;
 }
 
 /* ===== Sections ===== */
 .section {
     max-width: 1000px;
     margin: 140px auto;
-    padding: 30px;
+    padding: 30px 20px;
 }
 
 /* ===== Titres ===== */
 h1 {
-    font-size: 72px;
+    font-size: 64px;
     text-align: center;
     margin-bottom: 40px;
-    background: linear-gradient(90deg, #38bdf8, #a855f7);
+    background: linear-gradient(90deg, #4f46e5, #8b5cf6); /* violet dégradé subtil */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 38px;
     margin-bottom: 20px;
-    border-left: 5px solid #38bdf8;
-    padding-left: 15px;
+    border-left: 4px solid #8b5cf6;
+    padding-left: 12px;
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
 /* ===== Texte ===== */
 p {
-    font-size: 19px;
-    line-height: 1.9;
-    color: #d1d5db;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #cbd5e1; /* gris clair */
 }
 
 .intro {
     text-align: center;
-    font-size: 22px;
-    color: #e5e7eb;
+    font-size: 20px;
+    color: #f1f1f1;
 }
 
 /* ===== Carte projet ===== */
 .card {
     background: rgba(255, 255, 255, 0.05);
-    padding: 35px;
-    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 30px;
+    border-radius: 16px;
     margin-top: 40px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 30px 60px rgba(0,0,0,0.8);
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    border-color: #8b5cf6;
 }
 
 .card a {
     display: inline-block;
-    margin-top: 20px;
-    color: #38bdf8;
+    margin-top: 18px;
+    color: #8b5cf6;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 17px;
+    font-weight: 500;
+    font-size: 16px;
     transition: 0.3s;
 }
 
 .card a:hover {
-    color: #a855f7;
+    color: #4f46e5;
+}
+
+/* ===== Buttons & Highlights ===== */
+button, .btn {
+    background: #8b5cf6;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+    background: #4f46e5;
+}
+
+/* ===== Media Queries ===== */
+@media (max-width: 768px) {
+    nav {
+        gap: 25px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .section {
+        margin: 120px 20px;
+    }
 }
