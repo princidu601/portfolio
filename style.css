@@ -131,3 +131,17 @@ button:hover, .btn:hover {
         margin: 100px 20px;
     }
 }
+
+.section {
+    position: relative;
+}
+
+.photo-profil {
+    width: 120px;      /* petite taille */
+    height: 120px;     /* carré */
+    object-fit: cover;
+    
+    position: absolute;
+    top: 20px;         /* distance du haut */
+    left: 20px;        /* distance de la gauche */
+}
