@@ -90,11 +90,11 @@ p {
 
 .card a {
     display: inline-block;
-    margin-top: 15px;
-    color: #8b5cf6;
+    margin-top: 25px;
+    color: black;
     text-decoration: none;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 25px;;
 }
 
 .card a:hover {
