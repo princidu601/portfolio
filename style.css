@@ -137,8 +137,8 @@ button:hover, .btn:hover {
 }
 
 .photo-profil {
-    width: 40px;     /* petite taille */
-    height: 40px;    /* carré */
+    width: 120px;     /* petite taille */
+    height: 70px;    /* carré */
     object-fit: cover;
     
     position: absolute;
