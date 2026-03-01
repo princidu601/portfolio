@@ -257,3 +257,9 @@ ul li::before {
         font-size: 1.3rem; /* encore plus petit sur mobile */
     }
 }
+
+.header{
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
